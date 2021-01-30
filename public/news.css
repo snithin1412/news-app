@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main {
+    width: 50%;
+    border: 1px solid;
+    padding: 20px;
+  }
+
+  .btn-style {
+    border-radius: 10px;
+    background-color: #0000ff85;
+    cursor: pointer;
+  }
