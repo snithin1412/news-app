@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Latest News</title>
 </head>
-<body>
+<body onload="getNews(0);">
     <div>
         <h1>News</h1>
         <p id="headline"></p>
         <p id="content"></p>
-        <button>Get More News</button>
+        <button onclick="getNews();">Get More News</button>
     </div>
+    <script src="news.js"></script>
 </body>
 </html>
